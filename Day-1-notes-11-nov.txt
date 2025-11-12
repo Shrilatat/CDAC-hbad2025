@@ -1,0 +1,136 @@
+wpt-nov2025
+
+HTML  - HyperText Markup Language
+
+URL:
+
+http://www.google.com
+
+https://www.amazon.in/
+
+file:///D:/CDAC-hbd25/first.html
+
+
+http://www.someserver.com/pages/mypage.html
+
+
+
+
+
+w3c = www Consotium group
+
+Editors : Notepads, Notepad++, sublime, atom, brackets, VSC, .......
+
+Tags:
+
+<html><head><body>
+<b>, <i>, <u>
+<br> - line break
+
+header tags - <h1>..<h6>
+
+
+attributes: optional, mandatory
+<tag attrib=value attrib=value attrib=value></tag>
+
+
+
+<tag attrib="value">
+
+<h1> This is header 1 </h1>
+
+Container tags: HTML4
+- <p> - paragraph
+- <div> - divison
+- <span>
+
+
+<ol> - Ordered list
+<ul> - UnOrdered list
+<li> List Item
+<table>, <tr>,<td>
+<hr> - horizontal ruler
+
+<a> - anchor
+
+
+HTML 4 Form elements: 9 + 3
+
+<input type=?>
+
+Text-based:
+- text
+- password
+- hidden  XXX
+
+button-based:
+- button
+- submit
+- reset
+
+Misc:
+- radio
+- checkbox
+- file
+
+
+3:
+Text area : <textarea>
+drop down:
+<button>
+
+
+file:///D:/CDAC-hbd25/form.html?uname=Ramcharan&passwd=secret
+
+https://www.amazon.in/s?k=mouse+for+laptop&crid=3BUT89YP52NE1&sprefix=mmouse%2Caps%2C277&ref=nb_sb_ss_p13n-pd-dpltr-ww-ranker-t1_1_6
+
+file:///D:/CDAC-hbd25/form.html
+
+
+
+GET / POST
+
+
+attributes :  name, type, value, readonly, maxlength, ....
+
+Forms (HTML5):
+16 new form attributes (8)
+13 new form elements (9+13/8)
+
+
+attributes:
+- required
+- autofocus
+- placeholder
+- min - only for number
+- max - only for number
+- pattern
+- minlength - only for textfield
+- title
+
+
+
+Elements: (13)
+<input type=?>
+- email
+- number
+- range
+- date ( 5)
+- color
+- url
+- search
+- tel
+
+
+
+
+Multimedia  - image, audio, video
+<img src>
+
+<audio>
+<video>
+
+
+
+
+
