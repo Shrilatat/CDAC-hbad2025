@@ -1,0 +1,85 @@
+MIME types:
+
+text/plain
+text/html
+
+image/gif
+image/jpg
+
+audio/wav
+audio/mp3
+
+
+
+
+HTTP Status Codes:
+1XX - informational
+2XX - success   200 ok
+3XX - redirectional
+4XX - client error 404 page not found
+5XX - server error
+
+
+Content/container tags:
+
+
+
+tag{
+   prop : value;
+   prop : value;
+}
+
+p{}
+
+How to embed CSS into HTML?
+- internal/embedded SS
+- Linked/external SS
+- inline SS
+
+
+Types of selector?
+- tag selector p{}, h1{}
+- ID selector  #ele{}
+- class selector .box{....}
+
+
+
+JavaScript:
+- Client side validation
+- event handling
+- DOM manipulation
+
+
+Part-1 : Language fundamentals
+Part-2 : DOM
+
+
+Language fundamentals:
+
+
+where can i put the <script> tag?
+- <body>
+- <head>
+- Ext file
+
+Strongly typed languages?
+int i = 10
+i = "aaa"
+float f;
+String str;
+
+
+JS is a loosely typed language
+var i;
+var j = 10
+
+
+<script>
+           var sname = prompt("Enter name")
+           var age = prompt("Enter age")
+
+           console.log(sname, age)
+        </script>
+
+
+
