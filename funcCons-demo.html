@@ -1,0 +1,38 @@
+<html>
+    <body>
+        <script>
+            //Function constructor
+            function Book(bookid, bname, author, price){
+                this.bookid = bookid
+                this.bname = bname
+                this.author = author
+                this.price = price
+                this.incrPrice = function(amount){
+                    this.price += amount
+                }
+                this.display = function(){
+                    console.log(this.bookid, this.bname, this.author, this.price)
+                }
+            }
+
+            var b1 = new Book(101, "Java", "Shubham", 400)
+             var b2 = new Book(102, "JavaScript", "Shubham", 480)
+              var b3 = new Book(103, "Servlets", "Shohab", 500)
+               var b4 = new Book(104, "JSP", "Harsh", 450)
+
+               var books = [b1, b2, b3, b4]
+
+               for(book of books){
+                book.incrPrice(100)
+               }
+
+               for(book of books){
+                book.display()
+               }
+
+
+
+
+        </script>
+    </body>
+</html>

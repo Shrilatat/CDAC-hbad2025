@@ -1,0 +1,70 @@
+<html>
+
+<body>
+  <script>
+    //Object Initizer/literal
+    //JSON - JavaScript Object Notation
+    
+    var person = {pname:"Shamala", age:22}
+    //console.log(person.pname, person.age) //read
+    person.pname = "Harshita"  //write
+    person.age = 25
+    //console.log(person.pname, person.age) //read
+
+    var student = {
+        sname : "Sumit",
+        age : 21.5,
+        graduated : true,
+        hobbies : ["Cricket","Coding", "Reading","Eating"],
+        address : {city : 'Rourkela', state : "Odissa"}
+    }
+
+    /*console.log(student.sname, student.age, student.graduated)
+    console.log(student.hobbies[1])
+    console.log(student.address.state)*/
+    
+    var book = {
+        bookid : 1001,
+        title : "Learning Javascript",
+        author : 'Shubham',
+        price : 450,
+        display : function(){
+            console.log(this.bookid, this.author, this.title, this.price)
+        },
+        incrPrice : function(amount){
+            this.price += amount
+        }
+    }
+
+    /*
+    book.display()
+    book.incrPrice(100)
+    book.display() */
+
+
+    var users = [
+        {uname:"Sunit", password:"sleeping"},
+        {uname:"Harshita", password:"secret"},
+        {uname:"admin", password:"admin123"},
+        {uname:"user1", password:"pass1"}
+    ]
+
+    var str = ""
+    str += "<table border='1'>"
+    str += "<tr><th>Username</th><th>Password</th></tr>"
+
+    for(user of users){
+      str += "<tr><td>"+ user.uname + "</td><td>" + user.password + "</td></tr>"
+    }
+    
+    str += "</table>"
+
+    document.writeln(str)
+    
+
+
+
+  </script>
+</body>
+
+</html>
