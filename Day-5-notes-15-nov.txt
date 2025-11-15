@@ -1,0 +1,187 @@
+Backend Technologies:
+- Servlet/JSP
+- Spring/Spring Boot
+- PHP
+- .NET
+- Python
+- Node/Express
+
+
+Front-end Tecnologies:
+- HTML
+- CSS
+- JS
+- jQuery
+- Ajax
+- Bootstrap/Tailwind
+- React
+- Angular
+- Vue
+
+
+Web Server:
+- Java : Tomcat, JBoss, Glassfish, WebLogic, WSAD,   
+- .NET : IIS
+- PHP : Apache HTTPD
+
+
+
+
+
+CSS Selectors: Only change the style of the document
+- tag : p{...}
+- id  : #p1{....}
+- class : .c1{....}
+
+
+jQuery selectors:  change the entire behaviour of the document
+- tag : $("p") 
+- id  : $("#p1")
+- class : $(".c1")
+
+
+document.getElementsByTagName("p")
+
+jQuery("p")
+
+$("p") - select all paras
+$("h1") - selects all <h1> tags
+$("a") - selects all <a> tags
+$("div") - selects all <div> tags
+
+$("#p1") - select that element whose id is p1
+
+$(".c1") - selects all elements that have class c1
+
+$("p, a") - select all paras and all anchors
+
+$("p, a, div") - select all paras and all anchors and all divs
+
+$("div p") - selects all paras inside div
+
+
+
+jquery methods : 
+
+css(), text(), html(), each(), 
+
+animation methods : hide(), show(), slideUp(), slideDown(), fadeIn(), fadeout(), fadeTo()
+
+length prop
+
+
+$("input[type='radio']")
+
+
+------- Looping ---------
+
+/*
+           $("p").each(function(){
+               console.log($(this).html())  //raw DOM <p> element
+           })
+
+           $("p").each(function(index){
+              console.log(index, $(this).html())
+           })*/
+
+           $("p").each(function(index, element){
+              console.log(index, $(element).html())
+           })
+
+-----------------------
+
+   Events:
+
+$(selector).event(function)
+
+$("#btn1").click(function(){})
+
+
+$("img").mouseover(function(){})
+
+---------  events and form ------------
+<script>
+        $(document).ready(function () {
+
+            $("#btn").click(function () {
+                var name = $("#un").val()
+                var pass = $("#pass").val()
+
+                $("#p1").html("Welcome " + name + "  your pass is " + pass)
+            })
+
+        })
+    </script>
+</head>
+
+<body>
+    <h1>Welcome to HTML</h1>
+    <hr>
+    <form>
+        Username : <input type="text" id="un"><br>
+        Password : <input type="password" id="pass"><br>
+        <input type="button" value="MyButton" id="btn"> <br>
+        <p id="p1"></p>
+    </form>
+
+----------------------------
+
+Events:
+
+on() off()
+
+
+$(selector).event(function)
+
+$("#btn1").click(function(){})
+
+$(selector).on(event, function(){})
+
+
+
+$("p:eq(0)")   -- filter
+$("p:lt(5)")
+
+$("p").eq(0)    --- traversal method
+
+
+
+DOM manipulation :
+append(), after() , appendTo()
+
+$(selector).append(new element)
+$(selector).after(new element)
+
+newElement.appendTo(selector)
+
+prepend(), before(), prependTo()
+
+
+$("p").each()
+
+$.each(array)
+
+
+
+AJAX - Asynchronous JavaScript And XML
+
+- HTML
+- CSS
+- JavaScript
+- DOM
+- XML
+- XmlHttpRequest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
