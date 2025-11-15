@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+            span{color:red}
+        </style>
+        <script>
+            function validateUsername(){   //event handler
+               var uname = document.getElementById("uname").value
+               if(uname.length == 0 || uname.length == ""){
+                  document.getElementById("s1").innerHTML = ("Username is mandatory!!")
+                  return false;
+               }
+                else if(uname.length < 5 || uname.length > 10){
+                    document.getElementById("s1").innerHTML =("Username length not in range!!")
+                    return false
+                }
+                return true
+            }
+
+            function validatePassword(){   //event handler
+              var pass = document.getElementById("pass").value
+               if(pass.length == 0 || pass.length == ""){
+                  document.getElementById("s2").innerHTML =("Password is mandatory!!")
+                   return false
+               }
+                else if(pass.length < 5){
+                    document.getElementById("s2").innerHTML =("Password length cannot be less than 5 chars!!")
+                     return false
+                }
+                return true
+            }
+
+            function validate(){
+                if(validateUsername() && validatePassword())
+                    return true
+                else  return false
+            }
+        </script>
+    </head>
+    <body>
+       <form onsubmit="return validate()">
+          Username : <input id="uname"><span id="s1"></span><br>
+          Password : <input id="pass" type="password"><span id="s2"></span><br>
+          <input type="submit"><br>
+       </form>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+    <body>
+        <script>
+            function greet(){  //named function
+                document.writeln("Hello User!!<br>")
+            }
+            //greet()
+
+            var greet1 = function(){  //anonymous func
+                document.writeln("Hello Exprn<br>")
+            }
+            //greet1()
+
+            var greet2 = () => document.writeln("Hello Lambda<br>")
+
+            greet2()
+
+
+
+            function greetUser(uname){
+                document.writeln("Hello " + uname + "!!<br>")
+            }
+
+            var greetUser1 = function(username){
+                document.writeln("Hello " + username + "!!<br>")
+            } 
+
+            var greetUser2 = username => document.writeln("Hello " + username + "!!<br>")
+            greetUser2("Harsh")
+
+
+
+            function add(a, b){
+                return a + b
+            }
+
+            var add1 = function(x, y){
+                return x + y
+            }
+
+            var add2 = (x,y) => x+y
+
+            document.writeln("Sum is  " + add2(10,20))
+
+
+
+        </script>
+    </body>
+</html>

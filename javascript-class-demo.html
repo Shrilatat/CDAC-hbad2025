@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <script>
+            class Student{
+                constructor(id, sname){
+                    this.id = id
+                    this.sname = sname
+                }
+                displayStudentDetails(){
+                    console.log(this.id, this.sname)
+                }
+            }
+            var s1 = new Student(101, "Akshata")
+            var s2 = new Student(102, "Harita")
+            s1.displayStudentDetails()
+
+            class GradStudent extends Student{
+                constructor(id, sname, gpa){
+                    super(id, sname)
+                    this.gpa = gpa
+                }
+                 displayStudentDetails(){
+                    super.displayStudentDetails()
+                    console.log(this.gpa)
+                }
+            }
+
+            var gs1 = new GradStudent(101, "aaaa", 9.2)
+            gs1.displayStudentDetails()
+           
+        </script>
+    </body>
+</html>
