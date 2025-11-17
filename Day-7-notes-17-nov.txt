@@ -1,0 +1,108 @@
+REPL - Read Execute Print Loop
+
+library - math.h, string.h
+#include<string.h>
+
+java.util.*
+import java.util.*
+
+module1.py
+import .py
+
+abc.js
+<script src=?>
+
+
+module.js
+require("module.js")
+
+Modules:
+- Core (built-in) Module   (timer, http, fs)
+- Local (user-defined) modules
+- Third party modules
+
+
+80  - http
+21  - ftp
+
+
+http://www.someserver.com:80
+
+http://localhost:3000
+
+
+
+var f1 = ()=>{}
+
+var greet = () => console.log("Hello User")
+
+1) if no arg, then () is compulsory
+2) if 1 arg, then () is not compulsory
+3) if multiple args, then () is compulsory
+4) if func has only 1 line, then write as is
+5) if func has multiple lines, put into {}
+
+
+
+How to use Third party modules?
+- 1) download the TPM from npmjs.com
+- 2) install it
+- 3) require(TPM)
+
+
+NPM - Node Package Manager - installing, uninstalling, updating TPM
+
+Install : npm install tpm
+
+Globally/locally
+
+global : npm install -g tpm
+local : npm install tpm
+
+
+npm install -g angular@cli
+
+npm install -g typescript
+
+
+Web Application :
+- static pages
+- dynamic pages 
+
+
+
+
+
+let fs = require("fs")
+
+fs.method()
+
+fs.write()        -> async method
+fs.writeSync()    -> sync method
+
+
+fs.readile()
+fs.readileSync()
+
+
+fs.unlink()
+fs.unlinkSync()
+
+
+
+fs.readFile()
+
+--------------------------------
+- fs.open()
+- fs.read()
+- fs.close()
+
+
+
+
+
+
+
+
+
+
