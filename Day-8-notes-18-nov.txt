@@ -1,0 +1,106 @@
+GET req:
+- <form>, <form method="get">
+- URL directly on url addr bar of browser
+
+POST req :
+<form method="post">
+
+
+
+Web application : application available over the web
+consumes? Human sitting on a browser
+Human centric
+return? HTML
+
+
+Web Service: Service available over the web
+Consumer? application
+application-centric
+return? data (json, xml)
+
+WS:
+- SOAP-based WS
+- RESTful WS
+
+
+1) URL:
+
+- static
+- dynamic
+
+http://www.someserver.com/app/pages/welcome.html
+http://www.someotherserver.com/pages/welcome.html
+http://www.someserver.com/app/images/sun.mp4
+http://www.someserver.com/app/pages/reg.pdf
+
+
+
+RESTLess URL : verbs
+http://www.techarticles.com/pages/getArticle?id=12345
+http://www.techarticles.com/pages/delArticle?id=12345
+http://www.techarticles.com/pages/updateArticle?id=12345
+http://www.techarticles.com/pages/getAllArticles
+
+
+
+
+2) RESTful URLs
+nouns/resource
+
+http://www.techarticles.com/pages/article?id=12345  GET
+http://www.techarticles.com/pages/article?id=12345  DELETE
+http://www.techarticles.com/pages/articles
+
+
+
+http://www.techarticles.com/pages/article?id=12345 
+http://www.techarticles.com/pages/article/12345
+
+
+
+3) HTTP methods: (W3CGroup)
+- GET  : READ
+- POST  : CREATE
+- PUT  :  UPDATE
+- DELETE : DELETE
+
+
+4) REST - REpresentational State Transfer
+
+
+CRUD
+
+PUT, DELETE, OPTIONS, HEAD, TRACE, COMMAND....
+
+
+app.get()
+app.post()
+app.put()
+app.delete()
+
+http://localhost:3000/fetchAddPage
+http://localhost:3000/processNos?no1=100&no2=200
+
+
+req.query : whenever incoming req is a GET req
+
+req.body : whenever incoming req is a POST req
+
+req.param : whenever incoming req contains path parameters
+
+
+http://localhost:3000/users/102
+http://localhost:3000/users
+http://localhost:3000/users?id=102
+
+
+
+
+
+
+
+
+
+
+
+
